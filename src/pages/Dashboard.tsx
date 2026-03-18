@@ -1,8 +1,6 @@
-// src/pages/Dashboard.tsx
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { supabase } from '../lib/supabase';
 import type { Agendamento } from '../types/agendamento';
-import { useAuth } from '../contexts/AuthContext';
 import CalendarView from '../components/CalendarView';
 import { CheckCircle, XCircle, LogOut, Clock } from 'lucide-react';
 import { useNavigate } from 'react-router-dom';
@@ -10,7 +8,6 @@ import { enviarZap } from '../lib/whatsapp';
 
 export default function Dashboard() {
     const [pendentes, setPendentes] = useState<Agendamento[]>([]);
-    const { user } = useAuth();
     const navigate = useNavigate();
 
     const fetchPendentes = async () => {

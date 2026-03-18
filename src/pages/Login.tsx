@@ -1,4 +1,3 @@
-// src/pages/Login.tsx
 import React, { useState } from 'react';
 import { supabase } from '../lib/supabase';
 import { useNavigate } from 'react-router-dom';

@@ -1,6 +1,5 @@
-// src/components/BookingModal.tsx
-import React, { useState, useEffect } from 'react';
-import { X, User, Phone, Check, Trash2, CalendarClock, CalendarDays } from 'lucide-react';
+import { useState, useEffect } from 'react';
+import { X, Check, Trash2, CalendarClock, CalendarDays } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
 import { enviarZap } from '../lib/whatsapp';
 

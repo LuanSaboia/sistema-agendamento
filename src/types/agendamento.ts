@@ -1,4 +1,3 @@
-// src/types/agendamento.ts
 export type AgendamentoStatus = 'disponivel' | 'pendente' | 'confirmado';
 
 export interface Agendamento {

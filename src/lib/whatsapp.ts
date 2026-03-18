@@ -1,5 +1,3 @@
-// src/utils/whatsapp.ts
-
 export const enviarZap = (telefone: string, nome: string, data: string, hora: string, tipo: 'confirmar' | 'remarcar') => {
     const ddi = "55";
     const numLimpo = telefone.replace(/\D/g, '');

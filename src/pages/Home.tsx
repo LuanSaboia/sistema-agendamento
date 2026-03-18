@@ -1,4 +1,3 @@
-// src/pages/Home.tsx
 import CalendarView from '../components/CalendarView';
 import { Link } from 'react-router-dom';
 import { useAuth } from '../contexts/AuthContext';
