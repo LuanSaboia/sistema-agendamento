@@ -1,0 +1,22 @@
+@import "tailwindcss";
+
+/* Ajustes para o FullCalendar no Dark Mode */
+.dark .fc {
+    --fc-border-color: #1e293b; /* slate-800 */
+    --fc-page-bg-color: #0f172a; /* slate-900 */
+    --fc-neutral-bg-color: #1e293b;
+    --fc-list-event-hover-bg-color: #1e293b;
+    color: #f1f5f9;
+}
+
+.dark .fc-theme-standard td, .dark .fc-theme-standard th {
+    border-color: #1e293b;
+}
+
+.dark .fc-col-header-cell {
+    background-color: #1e293b;
+}
+
+.dark .fc-day-today {
+    background-color: rgba(30, 41, 59, 0.5) !important;
+}
