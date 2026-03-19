@@ -1,7 +1,6 @@
 import { useState, useEffect } from 'react';
-import { X, Check, Trash2, CalendarClock, CalendarDays } from 'lucide-react';
+import { X, Check, CalendarClock, CalendarDays } from 'lucide-react';
 import { useAuth } from '../contexts/AuthContext';
-import { enviarZap } from '../lib/whatsapp';
 
 interface BookingModalProps {
     isOpen: boolean;
